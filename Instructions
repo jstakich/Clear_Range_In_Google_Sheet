@@ -1,0 +1,8 @@
+Clear a particular range of cells in a Google Sheet.
+This is an example of using an App Script that clears a particular range of cells in a Google Sheet.
+Step-by-step guide
+ 
+Set a button in Google Sheets to call the following function
+This script clears Cells A2:C2 and Cells F7:H1000.
+Also Note the “0” that is in “ss.getSheets()[0]”
+This “0” refers to the sheet that your grabbing the fields off of.
